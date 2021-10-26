@@ -5,7 +5,7 @@ cls
 Get-Date 
 
 #variable for the packages
-$packages = 'VMware.WorkstationPro' , 'TechSmith.Snagit' , 'Microsoft.Teams' , 'Microsoft.Office' , 'BraveSoftware.BraveBrowser' , 'Devolutions.RemoteDesktopManagerFree' , 'Jabra.Direct' , 'Notepad++.Notepad++' , 'OpenWhisperSystems.Signal' , 'VideoLAN.VLC' , 'WinSCP.WinSCP'    #'Microsoft.VC++2017Redist-x64' , '7zip.7zip'
+$packages = 'TechSmith.Snagit' , 'Microsoft.Teams' , 'Microsoft.Office' , 'BraveSoftware.BraveBrowser' , 'Devolutions.RemoteDesktopManagerFree' , 'Jabra.Direct' , 'Notepad++.Notepad++' , 'VideoLAN.VLC' , 'WinSCP.WinSCP' , '7zip.7zip'
 
 #install loop
 #Install KB -- https://docs.microsoft.com/en-us/windows/package-manager/winget/install
