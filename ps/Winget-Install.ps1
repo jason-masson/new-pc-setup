@@ -1,7 +1,7 @@
 ﻿<# 
 - winget KB -- https://docs.microsoft.com/en-us/windows/package-manager/winget/
-- To search for a new package, use "winget search <package>". 
-- Select only packages from the 'winget' source and use the package ID when adding to the $packages variable below.
+- To search for a new package, use 'winget search <package>'. 
+- Select only packages from the winget source and use the package ID when adding to the $packages variable below.
 - VMware Workstation Prereqs -- https://kb.vmware.com/s/article/55798  
 #>
 
