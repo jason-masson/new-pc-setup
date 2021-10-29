@@ -1,4 +1,5 @@
-﻿#Install KB -- https://docs.microsoft.com/en-us/windows/package-manager/winget/install
+﻿#winget KB -- https://docs.microsoft.com/en-us/windows/package-manager/winget/
+#To search for a package use "winget search <package>", then add to the list following the format below
 #VMware Workstation Prereqs -- https://kb.vmware.com/s/article/55798
 
 #clear console
