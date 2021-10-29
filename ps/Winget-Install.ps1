@@ -1,6 +1,9 @@
-﻿#winget KB -- https://docs.microsoft.com/en-us/windows/package-manager/winget/
-#To search for a package use "winget search <package>", then add to the list following the format below
-#VMware Workstation Prereqs -- https://kb.vmware.com/s/article/55798
+﻿<# 
+- winget KB -- https://docs.microsoft.com/en-us/windows/package-manager/winget/
+- To search for a new package, use "winget search <package>". 
+- Select only packages from the 'winget' source and use the package ID when adding to the $packages variable below.
+- VMware Workstation Prereqs -- https://kb.vmware.com/s/article/55798  
+#>
 
 #clear console
 Clear-Host
@@ -8,7 +11,7 @@ Clear-Host
 #start time
 Get-Date 
 
-#variable for the packages
+#variable for list packages
 $packages = '7zip.7zip',
             'BraveSoftware.BraveBrowser',
             'Devolutions.RemoteDesktopManagerFree',
